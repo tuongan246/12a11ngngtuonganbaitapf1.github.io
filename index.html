@@ -1,103 +1,29 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thư Viện Hình Ảnh Đẹp</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-    
-    <style>
-        /* 1. Thiết lập cơ bản */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
 
-        /* 2. Tạo nền động (Gradient Animation) */
-        body {
-            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-            background-size: 400% 400%;
-            animation: gradientBG 15s ease infinite;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
+<html>
 
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+    <head>
 
-        /* 3. Khung chứa chính */
-        .container {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.1); /* Màu trắng trong suốt */
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(8px); /* Hiệu ứng làm mờ nền sau kính */
-            border: 1px solid rgba(255, 255, 255, 0.18);
-            max-width: 600px;
-            width: 90%;
-        }
+        <meta charset="utf-8">
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
+        <title>ĐÂY LÀ TIÊU ĐỂ TRANG</title>
 
-        /* 4. Lưới chứa các nút */
-        .grid-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-        }
+    </head>
 
-        /* 5. Thiết kế nút bấm (Thay vì thẻ a trần trụi) */
-        .card-link {
-            display: block;
-            text-decoration: none;
-            background: white;
-            color: #333;
-            padding: 20px;
-            border-radius: 15px;
-            font-weight: bold;
-            font-size: 1.2rem;
-            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+    <body>
 
-        /* Hiệu ứng khi di chuột vào */
-        .card-link:hover {
-            transform: translateY(-10px) scale(1.05); /* Bay lên và phóng to nhẹ */
-            box-shadow: 0 20px 25px rgba(0,0,0,0.2);
-            background: #fff;
-            color: #e73c7e; /* Đổi màu chữ */
-        }
+        <h1>HÌNH...</h1>
 
-    </style>
-</head>
-<body>
+        <h2><a href="baitapf1\hinh3.html">Hình 3</a></h2>
 
-    <div class="container">
-        <h1>Bộ Sưu Tập</h1>
-        
-        <div class="grid-links">
-            <a href="baitapf1/hinh3.html" class="card-link">Hình 03</a>
-            <a href="baitapf1/hinh4.html" class="card-link">Hình 04</a>
-            <a href="baitapf1/hinh5.html" class="card-link">Hình 05</a>
-            <a href="baitapf1/hinh6.html" class="card-link">Hình 06</a>
-            <a href="baitapf1/hinh7.html" class="card-link">Hình 07</a>
-        </div>
-    </div>
+        <h2><a href="baitapf1\hinh4.html">Hình 4</a></h2>
 
-</body>
+        <h2><a href="baitapf1\hinh5.html">Hình 5</a></h2>
+
+        <h2><a href="baitapf1\hinh6.html">Hình 6</a></h2>
+
+        <h2><a href="baitapf1\hinh7.html">Hình 7</a></h2>
+
+    </body>
+
 </html>
